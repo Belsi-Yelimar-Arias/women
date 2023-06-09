@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color: #C501E2;
+	width: 90%;
+	margin: auto;
+	border: 4px
+}
+#contenedor{
+	width: 90%;
+	height: 400px;
+	background-color: darksalmon;
+}
+
+#nav{
+	width: 98.3%;
+	background-color: #9100b2;
+	padding: 10px 10px;
+	margin: auto;
+	display: flex;
+}
+#nav ul{
+	width: 100%;
+	list-style: none;
+	float: left;
+	margin:auto;
+	color: #df5bef;
+	display: flex;
+	
+	margin: 2px 20px;
+}
+nav ul li{
+	padding: 15px 50px;
+}
+header{
+	width: 100%;
+}
+nav ul li:hover{
+	background-color:dimgray;
+	padding: 15px 50px;
+}
+main{
+	width: 50%;
+	float: left;
+	background-color: aliceblue;
+	height: 500px;
+}
+aside{
+	background-color: blue;
+	height: 500px;
+	width:50%;
+	float: left;
+}
+footer{
+	width: 100%;
+	background-color:rebeccapurple;
+	float: none;
+}
+main p{
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: justify;
+}
+main h1{
+	margin-left: 20px;
+	
+	margin-right: 20px;
+	text-align: justify;
+	color:darkorchid;
+}
+.bcd{
+	width: 100%;
+	height: 100%;
+}
+footer ul{
+	display: flex;
+	text-decoration: none;
+	list-style: none;
+	margin: px;
+	padding: px;
+}
+footer ul li{
+	margin: 44px
+}
